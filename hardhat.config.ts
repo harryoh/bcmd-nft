@@ -5,6 +5,10 @@ import { vars } from "hardhat/config";
 const config: HardhatUserConfig = {
   solidity: "0.8.27",
   networks: {
+    sepolia: {
+      url: "https://1rpc.io/sepolia",
+      accounts: [vars.get("PRIVATE_KEY")]
+    },
     amoy: {
       chainId: 80002,
       url: "https://rpc-amoy.polygon.technology",
