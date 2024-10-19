@@ -19,7 +19,7 @@ const config: HardhatUserConfig = {
     enabled: true
   },
   etherscan: {
-    apiKey: vars.get("ETHERSCAN_API_KEY"),
+    apiKey: "5VJUGWGYH738H4INUVKF8NFIQ2HQHFJ3U6",
     customChains: [
       {
         network: "amoy",
